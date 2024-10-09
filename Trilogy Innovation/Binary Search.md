@@ -1,7 +1,3 @@
-Here’s the coding problem written in markdown format:
-
----
-
 ## Problem: Modified Binary Search
 
 You are given a modified binary search algorithm as follows:
@@ -38,22 +34,3 @@ Given an interval `[l, r]`, determine the probability that if you choose an inte
 ### Constraints:
 - `t < 1e7`
 - `1 <= l <= r < 1e5`
-
-### Example:
-**Input:**
-```
-2
-1 10
-3 8
-```
-
-**Output:**
-```
-p/q (mod modval)
-p/q (mod modval)
-```
-
----
-
-### Note:
-The output should represent the probability that a search in the interval `[l, r]` does not find the value `i`. Use modular arithmetic and multiplicative inverse as required.
